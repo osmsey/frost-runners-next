@@ -1,5 +1,8 @@
 # Frost Runners Next.js Project
 
+## Repository
+https://github.com/osmsey/frost-runners-next
+
 ## Project Setup
 
 ### Prerequisites
@@ -7,9 +10,14 @@
 - npm or yarn
 - Firebase Account
 - Vercel Account
+- GitHub Account
 
 ### Installation
 1. Clone the repository
+   ```
+   git clone https://github.com/osmsey/frost-runners-next.git
+   cd frost-runners-next
+   ```
 2. Install dependencies:
    ```
    npm install
@@ -21,9 +29,11 @@
 3. Replace placeholders in `.env.local` with your actual Firebase project credentials
 
 ### Vercel Deployment
-1. Connect your GitHub repository to Vercel
-2. Set up environment variables in Vercel project settings
-3. Deploy automatically from main branch
+1. Go to [Vercel](https://vercel.com/)
+2. Click "New Project"
+3. Import Git Repository: osmsey/frost-runners-next
+4. Set up environment variables in Vercel project settings
+5. Deploy
 
 ### Development
 ```
